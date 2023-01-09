@@ -47,6 +47,17 @@ main{
     margin: 0 auto;
 }
 
+.boton {
+    background-color: var(--secundario);
+    color: var(--blanco);
+    padding: 1rem 3rem;
+    margin-top: 1rem;
+    font-size: 2rem;
+    text-decoration: none;
+    border-radius: .5rem;
+    
+}
+
 .nav-bg {
     background-color: var(--secundario);
 }
