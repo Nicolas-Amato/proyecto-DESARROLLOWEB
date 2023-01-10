@@ -50,7 +50,7 @@ h1, h2, h3 {
 }
 
 main{
-    color: brown;
+    color: rgb(17, 17, 17);
 }
 
 .contenedor {
@@ -161,7 +161,38 @@ main{
 }
 
 /** contacto **/
-
 .formulario {
+    background-color: gray;
+    width: min(60rem, 100% ); /** utilizar el vaor ams pequeño **/
+    margin: 0 auto;
+    padding: 2rem;
+    border-radius: 1rem;
+}
 
+.formulario fieldset {
+    border: none;
+}
+
+.formulario legend {
+    text-align: center;
+    font-size: 1.8rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    color: var(--primario);
+}
+
+.contenedor-campos {
+
+}
+
+.campo {
+
+}
+ 
+.campo label {
+    color: var(--blanco);
+    font-weight: bold;
+    margin-bottom: .5rem;
+    display: block;
 }
