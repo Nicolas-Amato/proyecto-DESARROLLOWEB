@@ -29,6 +29,9 @@ body {
     border-radius: 1rem;
 }
 
+
+/* tipografia */
+
 h1 {
     font-size: 3.8rem;
 }
@@ -119,4 +122,46 @@ main{
  .contenido-hero h2,
  .contenido-hero p {
     color: var(--blanco);
+}
+
+/** SERVICIOS **/
+@media(min-width: 768px){
+    .servicios {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        /** grid: 200px 300px / 300px 300px es lo mismo que usar el grid rows y el colums **/
+        column-gap: 1rem;
+    }
+}
+
+.servicio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.servico h3 {
+    color: var(--secundario);
+    font-weight: normal;    
+}
+
+.servicio p {
+    line-height: 2;
+    text-align: center;
+}
+
+.servicio .iconos {
+    height: 15rem;
+    width: 15rem;
+    background-color: var(--primario);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/** contacto **/
+
+.formulario {
+
 }
